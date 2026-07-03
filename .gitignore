@@ -66,6 +66,10 @@ env/
 .ccls-cache/
 compile_commands.json
 
+# Local editor and container configuration
+.vscode/
+.devcontainer/
+
 # Windows specific
 Thumbs.db
 ehthumbs.db

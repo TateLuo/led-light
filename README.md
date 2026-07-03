@@ -24,9 +24,6 @@ ESP-IDF, and LVGL.
 
 <https://oshwhub.com/jabal/project_ayowptva>
 
-详细软件规格见 [SOFTWARE_DEVELOPMENT.md](SOFTWARE_DEVELOPMENT.md)。
-硬件待确认项见 [docs/HARDWARE_TODO.md](docs/HARDWARE_TODO.md)。
-
 ### 特色功能
 
 - **25W 冷暖双色补光**：冷光、暖光双通道 PWM 输出，支持 2700K 到 6500K 色温调节。
@@ -55,8 +52,7 @@ ESP-IDF, and LVGL.
 - 设置页和 WiFi OTA 页面
 
 部分硬件参数仍需样机确认，例如 LCD 控制器细节、背光极性、风扇低占空比启动、
-LED 驱动 PWM 推荐频率、ADC 标定误差和温度安装位置滞后等。详见
-[docs/HARDWARE_TODO.md](docs/HARDWARE_TODO.md)。
+LED 驱动 PWM 推荐频率、ADC 标定误差和温度安装位置滞后等。
 
 ### 软件架构
 
@@ -120,9 +116,7 @@ flowchart TD
 │   ├── app_ui/            # LVGL UI
 │   ├── app_settings/      # NVS 设置保存
 │   └── app_ota/           # 本地 Web OTA
-├── docs/
-│   └── HARDWARE_TODO.md   # 硬件待确认项
-└── SOFTWARE_DEVELOPMENT.md
+└── README.md
 ```
 
 ### 构建方法
@@ -182,10 +176,6 @@ safety protection, persistent settings, and local Web OTA updates.
 Hardware project:
 
 <https://oshwhub.com/jabal/project_ayowptva>
-
-See [SOFTWARE_DEVELOPMENT.md](SOFTWARE_DEVELOPMENT.md) for the full firmware
-specification and [docs/HARDWARE_TODO.md](docs/HARDWARE_TODO.md) for hardware
-items that still need validation on real samples.
 
 ### Features
 
